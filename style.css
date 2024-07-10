@@ -1,0 +1,159 @@
+.despegable{
+    justify-content: right;
+ 
+}
+
+h3{
+    padding-top: 15px;
+    padding-left: 150px;
+}
+
+Footer{
+    padding-top: 10%;
+    padding-left: 500px;
+    float:left
+    
+
+} 
+.container{
+    float: right;
+    padding-left: 300px;
+    padding-top: 15px;
+    margin:150 px auto
+    
+    
+    
+}
+.search-input-box{
+    width: 50%;
+    background-color: azure;
+    border-radius: 5px;
+    position: relative;
+    color: azure;
+    box-shadow: 0 1px 5px 3px ;
+}
+
+.search-input-box input {
+    padding-left: 89px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 55px;
+    padding: 0px 60px 0 20px;
+}
+
+.icon{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 22px;
+    cursor: pointer;
+    color: black;
+
+
+}
+.conteiner-suggestions{
+    max-height: 280px;
+    opacity: 0;
+    pointer-events: none;
+    padding: 0;
+    overflow-y: auto;
+}
+.search-input-box.active.conteiner-suggestions{
+    opacity: 1;
+    pointer-events: auto;
+    padding: 10 px 8px;
+    
+}
+.search-input-box.active.conteiner-suggestions li{
+    display: block;
+}
+
+.conteiner-suggestions li{
+    list-style: none;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container1 {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    padding-top: 50px;
+    padding-left: 125x;
+    padding-right: 125px;
+    
+    
+}
+
+.card {
+    padding-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 310px;
+    max-height: max-content;
+    text-align: center;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 15px 10px;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3577d3;
+    margin: 10px 0 20px;
+    text-align: justify;
+    padding-left: 100px;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #00aaff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.badge.nautico {
+    background-color: #007acc;
+    
+   
+}
+
+.badge.extremo {
+    background-color: #ff4500;
+}
